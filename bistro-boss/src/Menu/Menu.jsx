@@ -22,8 +22,25 @@ const Menu = () => {
         <Cover img={coverimg}
         title={'menu section'}
          Secondti={'how are you check your menu sectin if you i"ll be like in this'}></Cover>
-         <Sectiontitle></Sectiontitle>
-         <Menucategory items={offered}></Menucategory>
+         {/* this is offer section  */}
+         <Sectiontitle  subHeading={'Offer section'} heading={' this is offer menu item in '}></Sectiontitle>
+         <Menucategory 
+            items={offered}
+            title={'offered'}>
+         </Menucategory>
+        
+        {/* this is desert   */}
+        <Sectiontitle  subHeading={'Desert section'} heading={' this is offer Desert item in '}></Sectiontitle>
+         <Menucategory items={desert} title={'desert'}></Menucategory>
+         {/* this is soup   */}
+        <Sectiontitle  subHeading={'Soup section'} heading={' this is offer soup item in '}></Sectiontitle>
+         <Menucategory items={soup} title={'soup'}></Menucategory>
+         {/* this is salad   */}
+        <Sectiontitle  subHeading={'Salad section'} heading={'This is offer salad item in '}></Sectiontitle>
+         <Menucategory items={salad} title={'salad'}></Menucategory>
+         {/* this is pizza  */}
+        <Sectiontitle  subHeading={'Pizza section'} heading={'This is offer Pizza item in '}></Sectiontitle>
+         <Menucategory items={pizza} title={'pizza'}></Menucategory>
 
       </div>
     </div>

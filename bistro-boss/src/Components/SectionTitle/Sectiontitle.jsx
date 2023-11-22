@@ -3,8 +3,8 @@
 const Sectiontitle = ({subHeading,heading}) => {
   return (
     <div>
-        <h3 className="text-yellow-500">---{subHeading}---</h3>
-       <p className="text-4xl uppercase bordder-y-4 py-4">{heading}</p>
+        <h3 className="text-yellow-500 text-4xl mt-6 uppercase">---{subHeading}---</h3>
+       <p className="text-2xl bordder-y-4 py-4">{heading}</p>
     </div>
   )
 }
